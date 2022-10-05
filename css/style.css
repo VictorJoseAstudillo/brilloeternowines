@@ -50,6 +50,11 @@ footer {
 .contacto {
   text-align: center; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .grid-container {
-    flex-direction: column; } }
+    flex-direction: column;
+    width: 100%; } }
+
+.grid-container {
+  height: 100%;
+  width: 100%; }

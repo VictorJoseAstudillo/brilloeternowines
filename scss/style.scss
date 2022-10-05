@@ -63,8 +63,18 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .grid-container {
         flex-direction: column;
+        width: 100%;
     }
+}
+
+@mixin sizes($width, $height) {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-container {
+    @include sizes(500px, 50px);
 }
