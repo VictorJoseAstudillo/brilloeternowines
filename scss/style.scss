@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana;
+    width: 100%;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-apenado-amarillo_1017-18215.jpg?w=1380&t=st=1663808008~exp=1663808608~hmac=6bfe492f9ffe2c0c1dcbf542924907415d8c60e785eea2795ce368dc34fe973f);
+}
+
+.grid-container {
+    height: 600px;
+    display: grid;
+}
+
+.inicio {
+    font-size: 1em;
+}
+
+.quienessomos {
+    font-size: 1.2em
+}
+
+footer {
+    font-size: 0.8em;
+    border-top: solid 2px #000000;
+    padding-top: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.imagen1 {
+    padding: 2%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.imagen1:hover {
+    transform: scale(1.2);
+}
+
+.imagenvino {
+    padding: 2%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.imagenvino:hover {
+    transform: scale(1.2);
+}
+
+.imagen2 {
+    padding: 2%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.imagen2:hover {
+    transform: scale(1.2);
+}
+
+.contacto {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        flex-direction: column;
+    }
+}
