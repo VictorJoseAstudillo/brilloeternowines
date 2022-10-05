@@ -58,3 +58,14 @@ footer {
 .imagen2:hover {
     transform: scale(1.2);
 }
+
+.contacto {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        flex-direction: column;
+    }
+}
+
