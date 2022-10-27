@@ -4,7 +4,8 @@ html, body {
 body {
   font-family: Verdana;
   width: 100%;
-  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-apenado-amarillo_1017-18215.jpg?w=1380&t=st=1663808008~exp=1663808608~hmac=6bfe492f9ffe2c0c1dcbf542924907415d8c60e785eea2795ce368dc34fe973f); }
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-apenado-amarillo_1017-18215.jpg?w=1380&t=st=1663808008~exp=1663808608~hmac=6bfe492f9ffe2c0c1dcbf542924907415d8c60e785eea2795ce368dc34fe973f); 
+}
 
 .grid-container {
   height: 600px;
