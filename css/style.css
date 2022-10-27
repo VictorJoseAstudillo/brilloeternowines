@@ -9,7 +9,9 @@ body {
 
 .grid-container {
   height: 600px;
-  display: grid; }
+  display: grid;
+  overflow-x: hidden; 
+}
 
 .inicio {
   font-size: 1em; }
@@ -58,4 +60,5 @@ footer {
 
 .grid-container {
   height: 100%;
-  width: 100%; }
+  width: 100%; 
+}

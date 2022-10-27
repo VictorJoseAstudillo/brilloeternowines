@@ -11,6 +11,7 @@ body {
 .grid-container {
     height: 600px;
     display: grid;
+    overflow-x: hidden;
 }
 
 .inicio {
